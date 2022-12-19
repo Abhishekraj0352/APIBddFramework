@@ -2,16 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-18T12:57:19 IST" name="Default suite" finished-at="2022-12-18T12:57:23 IST" duration-ms="4167">
+  <suite started-at="2022-12-19T23:06:11 IST" name="Default suite" finished-at="2022-12-19T23:06:16 IST" duration-ms="4480">
     <groups>
     </groups>
-    <test started-at="2022-12-18T12:57:19 IST" name="Default test" finished-at="2022-12-18T12:57:23 IST" duration-ms="4167">
-      <class name="restassuredTests.GET_Request">
-        <test-method signature="getRequest()[pri:0, instance:restassuredTests.GET_Request@35047d03]" started-at="2022-12-18T12:57:19 IST" name="getRequest" finished-at="2022-12-18T12:57:23 IST" duration-ms="4114" status="PASS">
+    <test started-at="2022-12-19T23:06:11 IST" name="Default test" finished-at="2022-12-19T23:06:16 IST" duration-ms="4480">
+      <class name="restassuredTests.POST_Request">
+        <test-method is-config="true" signature="postdata()[pri:0, instance:restassuredTests.POST_Request@31368b99]" started-at="2022-12-19T23:06:11 IST" name="postdata" finished-at="2022-12-19T23:06:12 IST" duration-ms="1100" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getRequest -->
-      </class> <!-- restassuredTests.GET_Request -->
+        </test-method> <!-- postdata -->
+        <test-method signature="test()[pri:0, instance:restassuredTests.POST_Request@31368b99]" started-at="2022-12-19T23:06:12 IST" name="test" finished-at="2022-12-19T23:06:16 IST" duration-ms="3336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- restassuredTests.POST_Request -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
