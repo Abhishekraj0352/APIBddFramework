@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-19T23:06:11 IST" name="Default suite" finished-at="2022-12-19T23:06:16 IST" duration-ms="4480">
+  <suite started-at="2022-12-20T21:19:59 IST" name="Default suite" finished-at="2022-12-20T21:20:03 IST" duration-ms="4163">
     <groups>
     </groups>
-    <test started-at="2022-12-19T23:06:11 IST" name="Default test" finished-at="2022-12-19T23:06:16 IST" duration-ms="4480">
-      <class name="restassuredTests.POST_Request">
-        <test-method is-config="true" signature="postdata()[pri:0, instance:restassuredTests.POST_Request@31368b99]" started-at="2022-12-19T23:06:11 IST" name="postdata" finished-at="2022-12-19T23:06:12 IST" duration-ms="1100" status="PASS">
+    <test started-at="2022-12-20T21:19:59 IST" name="Default test" finished-at="2022-12-20T21:20:03 IST" duration-ms="4163">
+      <class name="restassuredTests.PUT_Request">
+        <test-method is-config="true" signature="postdata()[pri:0, instance:restassuredTests.PUT_Request@31368b99]" started-at="2022-12-20T21:19:59 IST" name="postdata" finished-at="2022-12-20T21:19:59 IST" duration-ms="718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postdata -->
-        <test-method signature="test()[pri:0, instance:restassuredTests.POST_Request@31368b99]" started-at="2022-12-19T23:06:12 IST" name="test" finished-at="2022-12-19T23:06:16 IST" duration-ms="3336" status="PASS">
+        <test-method signature="putTest()[pri:0, instance:restassuredTests.PUT_Request@31368b99]" started-at="2022-12-20T21:19:59 IST" name="putTest" finished-at="2022-12-20T21:20:03 IST" duration-ms="3388" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- restassuredTests.POST_Request -->
+        </test-method> <!-- putTest -->
+      </class> <!-- restassuredTests.PUT_Request -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
