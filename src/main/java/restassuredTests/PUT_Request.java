@@ -25,13 +25,10 @@ public class PUT_Request {
 	
 	@Test
 	public void putTest(){
-		
-		given().contentType("application/json").body(map)
-		
+//		given,when,then,put all come from restassured package which is static
+		given().contentType("application/json").body(map)	
 		.when().put()
-		
 		.then().statusCode(200).log().all();
-	
 	}
 	
 }
